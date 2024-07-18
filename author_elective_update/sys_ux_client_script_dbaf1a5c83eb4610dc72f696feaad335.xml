@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Simple List">cfafd25c83eb4610dc72f696feaad3cb</macroponent>
+        <name>Translate list title</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+   let translatedListTitle = helpers.translateSync(api.context.props.listTitle);
+   return translatedListTitle;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 10:23:33</sys_created_on>
+        <sys_id>dbaf1a5c83eb4610dc72f696feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Translate list title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_dbaf1a5c83eb4610dc72f696feaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 10:23:33</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>bb96fc6e1b89ce18168f4089bd4bcbb1</instance_id>
+        <instance_name>dev248908</instance_name>
+        <name>sys_ux_client_script_dbaf1a5c83eb4610dc72f696feaad335</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Simple List"&gt;cfafd25c83eb4610dc72f696feaad3cb&lt;/macroponent&gt;&lt;name&gt;Translate list title&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+   let translatedListTitle = helpers.translateSync(api.context.props.listTitle);
+   return translatedListTitle;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-18 10:23:33&lt;/sys_created_on&gt;&lt;sys_id&gt;dbaf1a5c83eb4610dc72f696feaad335&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Translate list title&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_dbaf1a5c83eb4610dc72f696feaad335&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-18 10:23:33&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>505573656</payload_hash>
+        <record_name>Translate list title</record_name>
+        <reverted_from/>
+        <source>e49db253839f0210dc72f696feaad3d4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 10:23:33</sys_created_on>
+        <sys_id>9baf1a5c83eb4610dc72f696feaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c55e59620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 10:23:33</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>9faf1a5cb7eb46105c4cbb5e198a8d36</update_guid>
+        <update_guid_history>9faf1a5cb7eb46105c4cbb5e198a8d36:505573656</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 12:17:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1c35517c61394018a2aed53d9bf8d424</sys_id>
+        <sys_metadata>dbaf1a5c83eb4610dc72f696feaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Translate list title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_dbaf1a5c83eb4610dc72f696feaad335</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_dbaf1a5c83eb4610dc72f696feaad335">9baf1a5c83eb4610dc72f696feaad337</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 12:17:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
